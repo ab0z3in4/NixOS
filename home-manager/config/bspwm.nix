@@ -32,7 +32,7 @@
       ".blueman-manager-wrapped" = {
         state = "floating";
       };
-      "Pavucontrol" = {
+      "pavucontrol" = {
         state = "floating";
       };
       "Gthumb" = {

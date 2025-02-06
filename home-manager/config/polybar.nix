@@ -18,7 +18,7 @@
         separator-foreground = "#00000000";
         font-0 = "Fira Sans SemiBold:size=11;2";
         font-1 = "Font Awesome 6 Free Solid:pixelsize=11;2";
-        modules-left = "xworkspaces xwindow";
+        modules-left = "xworkspaces";
         modules-right = "backlight pipewire memory cpu battery xkeyboard date systray";
         cursor-click = "pointer";
         cursor-scroll = "ns-resize";
@@ -47,13 +47,6 @@
         label-empty-foreground = "#FFFFFF";
         label-empty-background= "#aa000000";
         label-empty-padding = 2;
-      };
-      "module/xwindow" = {
-        type = "internal/xwindow";
-        label = "%title:0:60:...%";
-        format-prefix = "  ";
-        format-prefix-foreground = "#00B19F";
-        format-foreground = "#FFFFFF";
       };
       "module/xkeyboard" = {
         type = "internal/xkeyboard";

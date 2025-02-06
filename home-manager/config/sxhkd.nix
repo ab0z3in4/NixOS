@@ -22,7 +22,7 @@
       "super + q" = "bspc node -c";
       "super + m" = "bspc desktop -l next";
       "super + g" = "bspc node -s biggest.window";
-      "super + shift + space" = "bspc node -t {tiled,pseudo_tiled,floating,fullscreen}";
+      "super + shift + s" = "bspc node -t {tiled,pseudo_tiled,floating,fullscreen}";
       "super + s" = "bspc node -t floating";
       "super + {_,shift + }{h,j,k,l}" = "bspc node -{f,s} {west,south,north,east}";
       "super + {p,b,comma,period}" = "bspc node -f @{parent,brother,first,second}";

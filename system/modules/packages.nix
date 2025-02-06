@@ -8,8 +8,6 @@
     gzip
     unrar
     efibootmgr
-    sbctl
-    grub2
     ntfs3g
     brightnessctl
     neovim
@@ -21,7 +19,6 @@
     wget
     htop
     neofetch
-    #brave
     firefox
     alacritty
     bspwm
@@ -38,13 +35,13 @@
     nautilus
     nautilus-open-any-terminal
     pamixer
+    pavucontrol
     flameshot
     gnome-calculator
     mpv
     gthumb
     file-roller
     thefuck
-    xdg-desktop-portal-gtk
     adwaita-qt
     adw-gtk3
     bibata-cursors
