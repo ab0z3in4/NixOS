@@ -21,7 +21,8 @@
     wget
     htop
     neofetch
-    brave
+    #brave
+    firefox
     alacritty
     bspwm
     sxhkd

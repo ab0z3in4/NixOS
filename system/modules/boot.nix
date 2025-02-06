@@ -20,7 +20,7 @@
     loader = {
       efi.canTouchEfiVariables = true;
       systemd-boot.enable = true;
-      timeout = 5;
+      timeout = 0;
     };
     kernelModules = [ "tcp_bbr" "nvidia" "nvidia_modeset" "nvidia-uvm" "nvidia_drm" "kvm-intel" ];
     kernel.sysctl = {
