@@ -24,6 +24,7 @@
     bspwm
     sxhkd
     polybar
+    picom
     nitrogen
     polkit_gnome
     dunst
@@ -33,6 +34,7 @@
     redshift
     networkmanagerapplet
     nautilus
+    nautilus-open-any-terminal
     pamixer
     pavucontrol
     flameshot
@@ -49,6 +51,11 @@
     zapzap
     onlyoffice-desktopeditors
     xournalpp
+    virt-manager
+    qemu_kvm
+    libvirt
+    swtpm
+    OVMFFull
   ]);
   programs.nix-ld.enable = true;
   programs.nix-ld.libraries = [];
