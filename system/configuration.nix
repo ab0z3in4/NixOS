@@ -24,9 +24,6 @@
   # Enable Flakes
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
-  # Enable Unfree Software
-  nixpkgs.config.allowUnfree = true;
-
   # Set your time zone.
   time.timeZone = "Africa/Cairo";
 
@@ -36,10 +33,23 @@
     LC_ADDRESS = "ar_EG.utf8";
   };
 
-  # Environment Variables
-  environment.sessionVariables = rec {
-    GTK_THEME="adw-gtk3-dark";
-  };
+  programs.nix-ld.enable = true;
+  programs.nix-ld.libraries = with pkgs; [
+    zlib
+    zstd
+    stdenv.cc.cc
+    curl
+    openssl
+    attr
+    libssh
+    bzip2
+    libxml2
+    acl
+    libsodium
+    util-linux
+    xz
+    systemd
+  ];
 
   system.stateVersion = "24.11";
 }

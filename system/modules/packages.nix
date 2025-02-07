@@ -1,25 +1,25 @@
-{ pkgs, ... }:
+{ pkgs, pkgs-unstable, ... }:
 
 {
-  environment.systemPackages = with pkgs; [
+  environment.systemPackages =
+  (with pkgs; [ nodejs_22 python3 gcc gnumake ])
+  ++
+  (with pkgs-unstable; [
     git
     gh
     unzip
     gzip
     unrar
-    efibootmgr
+    sbctl
     ntfs3g
     brightnessctl
+    vim
     neovim
     ripgrep
-    nodejs_22
-    python3
-    gcc
-    gnumake
     wget
     htop
     neofetch
-    firefox
+    brave
     alacritty
     bspwm
     sxhkd
@@ -33,7 +33,6 @@
     redshift
     networkmanagerapplet
     nautilus
-    nautilus-open-any-terminal
     pamixer
     pavucontrol
     flameshot
@@ -50,24 +49,9 @@
     zapzap
     onlyoffice-desktopeditors
     xournalpp
-  ];
+  ]);
   programs.nix-ld.enable = true;
-  programs.nix-ld.libraries = with pkgs; [
-    zlib
-    zstd
-    stdenv.cc.cc
-    curl
-    openssl
-    attr
-    libssh
-    bzip2
-    libxml2
-    acl
-    libsodium
-    util-linux
-    xz
-    systemd
-  ];
+  programs.nix-ld.libraries = [];
   programs.nautilus-open-any-terminal = {
     enable = true;
     terminal = "alacritty";

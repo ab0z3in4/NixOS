@@ -1,3 +1,5 @@
+{ config, lib, inputs, pkgs-unstable, ... }:
+
 {
   imports = [
     ./config/zsh.nix
@@ -11,5 +13,6 @@
     ./config/picom.nix
     ./config/fontConfig.nix
   ];
+  home.enableNixpkgsReleaseCheck = false;
   home.stateVersion = "24.11";
 }
