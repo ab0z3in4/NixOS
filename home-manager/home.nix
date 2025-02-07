@@ -2,7 +2,7 @@
 
 {
   imports = [
-    ./config/zsh.nix
+    ./config/starship.nix
     ./config/alacritty.nix
     ./config/virt-manager.nix
     ./config/gtk.nix
