@@ -33,5 +33,10 @@
     LC_ADDRESS = "ar_EG.utf8";
   };
 
+  # Environment Variables
+  environment.sessionVariables = rec {
+    GTK_THEME="adw-gtk3-dark";
+  };
+
   system.stateVersion = "24.11";
 }
