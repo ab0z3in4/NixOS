@@ -9,7 +9,7 @@
   programs.bash = {
     completion.enable = true;
     completion.package = pkgs-unstable.bash-completion;
-    #interactiveShellInit = "eval \"$(starship init bash)\"";
+    interactiveShellInit = "eval \"$(starship init bash)\"";
     shellAliases = {
       update = "sudo nixos-rebuild switch --flake /etc/nixos#ab0z3in4-PC";
       update-boot = "sudo nixos-rebuild boot --flake /etc/nixos#ab0z3in4-PC";
