@@ -1,10 +1,7 @@
 { pkgs, pkgs-unstable, ... }:
 
 {
-  environment.systemPackages =
-  /*(with pkgs; [ nodejs_22 python3 gcc gnumake ])
-  ++
-  (*/with pkgs-unstable; [
+  environment.systemPackages = with pkgs-unstable; [
     nodejs
     python3
     gcc
@@ -23,7 +20,7 @@
     wget
     htop
     neofetch
-    brave
+    firefox
     alacritty
     starship
     bspwm
@@ -56,10 +53,7 @@
     zapzap
     onlyoffice-desktopeditors
     xournalpp
-    virt-manager
-    qemu_kvm
-    libvirt
-  ]/*)*/;
+  ];
 
   programs.nix-ld.enable = true;
   programs.nix-ld.libraries = [];

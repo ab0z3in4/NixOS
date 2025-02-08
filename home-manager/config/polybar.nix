@@ -118,7 +118,7 @@
         exec = "sh -c 'echo $(( $(brightnessctl g) * 100 / $(brightnessctl m) ))'";
         format = "<label>";
         label = "%output%%";
-        tail = true;
+        interval = 3;
         scroll-up = "brightnessctl set 5%+";
         scroll-down = "brightnessctl set 5%-";
         format-foreground = "#FFFFFF";
@@ -128,7 +128,7 @@
       "module/pipewire" = {
         type = "custom/script";
         exec = "pamixer --get-volume-human";
-        tail = true;
+        interval = 2;
         format = "<label>";
         label = "%output%";
         click-left = "pamixer --toggle-mute";
