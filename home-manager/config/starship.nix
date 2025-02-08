@@ -4,7 +4,7 @@
     enableBashIntegration = true;
     settings = {
       add_newline = true;
-      format = ''[░▒▓](#9A348E)$username[](bg:#DA627D fg:#9A348E)$directory[](fg:#DA627D bg:#FCA17D)$git_branch$git_status[](fg:#FCA17D bg:#86BBD8)$c$elixir$elm$golang$gradle$haskell$java$julia$nodejs$nim$rust$scala[](fg:#86BBD8 bg:#06969A)$docker_context[](fg:#06969A bg:#33658A)$time[ ](fg:#33658A)'';
+      format = ''[░▒▓](#9A348E)$username[](bg:#DA627D fg:#9A348E)$directory[](fg:#DA627D bg:#FCA17D)$git_branch$git_status[](fg:#FCA17D bg:#86BBD8)$c$elixir$elm$golang$gradle$haskell$java$julia$nodejs$python$nim$rust$scala[](fg:#86BBD8 bg:#06969A)$docker_context[](fg:#06969A bg:#33658A)$time[ ](fg:#33658A)'';
       command_timeout = 5000;
       scan_timeout = 10;
       username = {
@@ -19,10 +19,10 @@
         truncation_length = 1;
       };
       directory.substitutions = {
-        "Documents" = "󰈙 ";
-        "Downloads" = " ";
-        "Music" = " ";
-        "Pictures" = " ";
+        "Documents" = "󰈙";
+        "Downloads" = "";
+        "Music" = "";
+        "Pictures" = "";
       };
       c = {
         symbol = " ";
@@ -78,7 +78,12 @@
         format = "[ $symbol ($version) ]($style)";
       };
       nodejs = {
-        symbol = "";
+        symbol = " ";
+        style = "bg:#86BBD8";
+        format = "[ $symbol ($version) ]($style)";
+      };
+      python = {
+        symbol = " ";
         style = "bg:#86BBD8";
         format = "[ $symbol ($version) ]($style)";
       };
@@ -88,7 +93,7 @@
         format = "[ $symbol ($version) ]($style)";
       };
       rust = {
-        symbol = "";
+        symbol = " ";
         style = "bg:#86BBD8";
         format = "[ $symbol ($version) ]($style)";
       };
