@@ -1,4 +1,4 @@
-{ pkgs, pkgs-unstable, ... }:
+{ pkgs-unstable, ... }:
 
 {
   environment.systemPackages = with pkgs-unstable; [
@@ -53,6 +53,7 @@
     zapzap
     onlyoffice-desktopeditors
     xournalpp
+    virt-manager
   ];
 
   programs.nix-ld.enable = true;
