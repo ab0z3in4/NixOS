@@ -19,10 +19,10 @@
         truncation_length = 1;
       };
       directory.substitutions = {
-        "Documents" = "󰈙";
-        "Downloads" = "";
-        "Music" = "";
-        "Pictures" = "";
+        "Documents" = "󰈙 ";
+        "Downloads" = " ";
+        "Music" = " ";
+        "Pictures" = " ";
       };
       c = {
         symbol = " ";
@@ -45,7 +45,7 @@
         format = "[ $symbol ($version) ]($style)";
       };
       git_branch = {
-        symbol = "";
+        symbol = " ";
         style = "bg:#FCA17D";
         format = "[ $symbol $branch ]($style)";
       };
