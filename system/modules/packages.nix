@@ -14,7 +14,6 @@
     sbctl
     ntfs3g
     brightnessctl
-    vim
     neovim
     ripgrep
     wget
@@ -37,6 +36,7 @@
     networkmanagerapplet
     nautilus
     nautilus-open-any-terminal
+    dconf
     pamixer
     pavucontrol
     flameshot
@@ -44,8 +44,6 @@
     mpv
     gthumb
     file-roller
-    thefuck
-    adwaita-qt
     adw-gtk3
     bibata-cursors
     papirus-icon-theme
@@ -55,10 +53,8 @@
     xournalpp
     virt-manager
   ];
-
   programs.nix-ld.enable = true;
   programs.nix-ld.libraries = [];
-
   programs.nautilus-open-any-terminal = {
     enable = true;
     terminal = "alacritty";

@@ -1,5 +1,3 @@
-{ config, lib, inputs, pkgs, ... }:
-
 {
   imports = [
     ./hardware-configuration.nix
@@ -35,7 +33,8 @@
 
   # Environment Variables
   environment.sessionVariables = rec {
-    GTK_THEME="adw-gtk3-dark";
+    GTK_THEME = "adw-gtk3-dark";
+    QT_QPA_PLATFORMTHEME = "gtk2";
   };
 
   system.stateVersion = "24.11";

@@ -41,6 +41,9 @@
       "motion_recorder" = {
         state = "floating";
       };
+      "org.gnome.FileRoller" = {
+        state = "floating";
+      };
     };
     startupPrograms = [
       "xrandr --output eDP1 --mode 1366x768 --rate 60"
