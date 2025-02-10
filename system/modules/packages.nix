@@ -27,7 +27,6 @@
     polybar
     picom
     nitrogen
-    polkit_gnome
     dunst
     numlockx
     rofi

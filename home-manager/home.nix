@@ -1,5 +1,3 @@
-#{ config, lib, inputs, pkgs-unstable, ... }:
-
 {
   imports = [
     ./config/starship.nix
