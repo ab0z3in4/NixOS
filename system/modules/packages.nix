@@ -35,6 +35,8 @@
     networkmanagerapplet
     nautilus
     nautilus-open-any-terminal
+    gnome-calendar
+    gnome-system-monitor
     dconf
     pamixer
     pavucontrol
@@ -52,8 +54,8 @@
     xournalpp
     virt-manager
   ];
-  programs.nix-ld.enable = true;
-  programs.nix-ld.libraries = [];
+  #programs.nix-ld.enable = true;
+  #programs.nix-ld.libraries = [];
   programs.nautilus-open-any-terminal = {
     enable = true;
     terminal = "alacritty";
