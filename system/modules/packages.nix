@@ -19,7 +19,7 @@
     wget
     htop
     neofetch
-    brave
+    firefox
     alacritty
     starship
     bspwm
