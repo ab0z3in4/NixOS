@@ -1,10 +1,10 @@
-{ pkgs-unstable, ... }:
+{ pkgs, ... }:
 
 {
   xdg.portal = {
     enable = true;
     config.common.default = "*";
-    extraPortals = [ pkgs-unstable.xdg-desktop-portal-gtk ];
+    extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
   };
   security.polkit.enable = true;
   security.apparmor.enable = true;
@@ -16,7 +16,7 @@
       after = [ "graphical-session.target" ];
       serviceConfig = {
         Type = "simple";
-        ExecStart = "${pkgs-unstable.polkit_gnome}/libexec/polkit-gnome-authentication-agent-1";
+        ExecStart = "${pkgs.polkit_gnome}/libexec/polkit-gnome-authentication-agent-1";
         Restart = "on-failure";
         RestartSec = 1;
         TimeoutStopSec = 10;
