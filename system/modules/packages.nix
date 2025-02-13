@@ -11,7 +11,6 @@
     unzip
     gzip
     unrar
-    sbctl
     ntfs3g
     brightnessctl
     neovim
