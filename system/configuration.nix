@@ -37,7 +37,6 @@
   # Environment Variables
   environment.sessionVariables = rec {
     GTK_THEME = "adw-gtk3-dark";
-    QT_QPA_PLATFORMTHEME = "gtk2";
   };
 
   system.stateVersion = "24.11";
