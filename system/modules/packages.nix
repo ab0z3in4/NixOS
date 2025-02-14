@@ -8,6 +8,7 @@
     gnumake
     git
     gh
+    duf
     unzip
     gzip
     unrar
