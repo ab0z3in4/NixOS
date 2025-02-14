@@ -55,8 +55,8 @@
     virt-manager
   ];
 
-  programs.nix-ld.enable = true;
-  programs.nix-ld.libraries = [];
+  # programs.nix-ld.enable = true;
+  # programs.nix-ld.libraries = [];
 
   programs.nautilus-open-any-terminal = {
     enable = true;
