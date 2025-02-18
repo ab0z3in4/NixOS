@@ -2,9 +2,9 @@
   fonts.fontconfig = {
     enable = true;
     defaultFonts = {
-      sansSerif = [ "Arimo" "Noto Sans Arabic" ];
-      serif = [ "Tinos" "Noto Sans Arabic" ];
-      monospace = [ "Cousine" "Noto Sans Arabic" ];
+      sansSerif = [ "Arimo" "Noto Naskh Arabic" ];
+      serif = [ "Tinos" "Noto Naskh Arabic" ];
+      monospace = [ "Cousine" "Noto Naskh Arabic" ];
     };
   };
 }

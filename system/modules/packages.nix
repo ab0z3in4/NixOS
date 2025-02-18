@@ -14,8 +14,7 @@
     unrar
     ntfs3g
     brightnessctl
-    neovim
-    ripgrep
+    vscode
     wget
     htop
     neofetch
@@ -31,7 +30,6 @@
     numlockx
     rofi
     copyq
-    xsel
     redshift
     networkmanagerapplet
     nautilus
@@ -50,7 +48,7 @@
     bibata-cursors
     papirus-icon-theme
     telegram-desktop
-    zapzap
+    whatsie
     onlyoffice-desktopeditors
     xournalpp
     virt-manager
