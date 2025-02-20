@@ -18,7 +18,7 @@
     wget
     htop
     neofetch
-    firefox
+    ungoogled-chromium
     alacritty
     starship
     bspwm
