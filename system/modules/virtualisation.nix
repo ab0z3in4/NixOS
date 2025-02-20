@@ -12,10 +12,11 @@
         };
         ovmf = {
           enable = true;
-          packages = [ pkgs-unstable.OVMFFull.fd ];
+          packages = [ pkgs-unstable.OVMFFull ];
         };
       };
     };
     spiceUSBRedirection.enable = true;
   };
+  programs.virt-manager.enable = true;
 }

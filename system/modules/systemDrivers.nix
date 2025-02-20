@@ -3,10 +3,8 @@
 {
   hardware.bluetooth.enable = true;
   hardware.bluetooth.powerOnBoot = true;
-  hardware.graphics = {
-    enable = true;
-    extraPackages = with pkgs; [ vaapiIntel vpl-gpu-rt intel-media-driver intel-compute-runtime mesa ];
-  };
+  hardware.graphics.enable = true;
+  hardware.graphics.extraPackages = with pkgs; [ mesa mesa.drivers ];
   services.xserver.videoDrivers = [ "nvidia" ];
   hardware.nvidia = {
     modesetting.enable = true;
@@ -17,11 +15,9 @@
     package = config.boot.kernelPackages.nvidiaPackages.stable;
   };
   hardware.nvidia.prime = {
-    offload = {
-      enable = true;
-      enableOffloadCmd = true;
-    };
+    offload.enable = true;
+    offload.enableOffloadCmd = true;
     intelBusId = "PCI:0:2:0";
-    nvidiaBusId = "PCI:14:0:0";
+    nvidiaBusId = "PCI:1:0:0";
   };
 }

@@ -22,7 +22,7 @@
       systemd-boot.enable = true;
       timeout = 0;
     };
-    kernelModules = [ "tcp_bbr" "nvidia" "nvidia_modeset" "nvidia-uvm" "nvidia_drm" "kvm-intel" ];
+    kernelModules = [ "tcp_bbr" "nvidia" "nvidia_modeset" "nvidia_uvm" "nvidia_drm" "kvm-intel" "kvm-amd" ];
     kernel.sysctl = {
       "net.ipv4.tcp_congestion_control" = "bbr";
       "net.core.default_qdisc" = "fq";
