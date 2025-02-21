@@ -36,7 +36,6 @@
     nautilus-open-any-terminal
     gnome-calendar
     gnome-system-monitor
-    dconf
     pamixer
     pavucontrol
     flameshot
