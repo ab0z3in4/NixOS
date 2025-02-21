@@ -9,6 +9,7 @@
     ./config/sxhkd.nix
     ./config/bspwm.nix
     ./config/picom.nix
+    ./config/fonts.nix
   ];
   home.enableNixpkgsReleaseCheck = false;
   home.stateVersion = "24.11";
