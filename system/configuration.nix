@@ -5,7 +5,7 @@
     ./modules/boot.nix
     ./modules/networking.nix
     ./modules/services.nix
-    ./modules/systemDrivers.nix
+    ./modules/drivers.nix
     ./modules/sound.nix
     ./modules/account.nix
     ./modules/packages.nix
