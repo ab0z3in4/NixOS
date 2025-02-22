@@ -3,7 +3,7 @@
 {
   environment.systemPackages = with pkgs-unstable; [
     nodejs
-    python3
+    python313
     gcc
     gnumake
     git
