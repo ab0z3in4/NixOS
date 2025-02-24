@@ -27,14 +27,6 @@
         modules = [
           ./system/configuration.nix
           lanzaboote.nixosModules.lanzaboote
-          ({ pkgs-unstable, lib, ... }: {
-            environment.systemPackages = [ pkgs-unstable.sbctl ];
-            boot.loader.systemd-boot.enable = lib.mkForce false;
-            boot.lanzaboote = {
-              enable = true;
-              pkiBundle = "/var/lib/sbctl";
-            };
-          })
           home-manager.nixosModules.home-manager
           {
             home-manager.useGlobalPkgs = true;
