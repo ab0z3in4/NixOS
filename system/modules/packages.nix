@@ -8,7 +8,6 @@
     gcc
     gnumake
     ntfs3g
-    pamixer
   ])
   ++
   (with pkgs-unstable; [
@@ -41,7 +40,7 @@
     nautilus-open-any-terminal
     gnome-calendar
     gnome-system-monitor
-    # pamixer
+    pamixer
     pavucontrol
     flameshot
     gnome-calculator
@@ -55,7 +54,6 @@
     whatsie
     onlyoffice-desktopeditors
     xournalpp
-    arduino-ide
   ]);
 
   programs.nix-ld.enable = true;
