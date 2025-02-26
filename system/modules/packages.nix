@@ -54,6 +54,7 @@
     whatsie
     onlyoffice-desktopeditors
     xournalpp
+    xfce.mousepad
   ]);
 
   programs.nix-ld.enable = true;
