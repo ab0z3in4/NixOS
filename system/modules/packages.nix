@@ -55,10 +55,16 @@
     onlyoffice-desktopeditors
     xournalpp
     xfce.mousepad
+    arduino-ide
   ]);
 
   programs.nix-ld.enable = true;
   programs.nix-ld.libraries = [];
+
+  programs.appimage = {
+    enable = true;
+    binfmt = true;
+  };
 
   programs.nautilus-open-any-terminal = {
     enable = true;
