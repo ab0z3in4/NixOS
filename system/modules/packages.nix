@@ -22,6 +22,7 @@
     wget
     htop
     neofetch
+    virtiofsd
     firefox
     alacritty
     starship
