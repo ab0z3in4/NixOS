@@ -55,7 +55,6 @@
     onlyoffice-desktopeditors
     xournalpp
     xfce.mousepad
-    arduino-ide
   ]);
 
   programs.nix-ld.enable = true;
