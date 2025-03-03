@@ -54,7 +54,6 @@
     telegram-desktop
     whatsie
     onlyoffice-desktopeditors
-    xournalpp
     xfce.mousepad
   ]);
 
