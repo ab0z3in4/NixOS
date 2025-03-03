@@ -12,6 +12,7 @@
     fira-code
     fira-code-symbols
     liberation_ttf
+    libertinus
     fira-sans
     hack-font
     font-awesome
