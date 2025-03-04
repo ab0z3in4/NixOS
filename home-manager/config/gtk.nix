@@ -1,20 +1,10 @@
 {
   gtk = {
     enable = true;
-    cursorTheme = {
-      name = "Bibata-Modern-Classic";
-      size = 16;
-    };
-    theme = {
-      name = "adw-gtk3-dark";
-    };
-    font = {
-      name = "Cantarell";
-      size = 10;
-    };
-    iconTheme = {
-      name = "Papirus-Dark";
-    };
+    cursorTheme.name = "Bibata-Modern-Classic";
+    cursorTheme.size = 16;
+    theme.name = "adw-gtk3-dark";
+    iconTheme.name = "Papirus-Dark";
     gtk3.extraCss = "
       @define-color window_bg_color #141414;
       @define-color window_fg_color #f8f8f2;
@@ -30,7 +20,6 @@
       @define-color dialog_fg_color @popover_fg_color;
       @define-color card_bg_color rgba(255, 255, 255, 0.08);
       @define-color card_fg_color @window_fg_color;
-
       button.titlebutton {
         color: transparent;
         min-width: 18px;
@@ -90,7 +79,6 @@
       @define-color dialog_fg_color @popover_fg_color;
       @define-color card_bg_color rgba(255, 255, 255, 0.08);
       @define-color card_fg_color @window_fg_color;
-
       button.titlebutton {
         color: transparent;
         min-width: 18px;
