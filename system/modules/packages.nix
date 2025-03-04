@@ -3,7 +3,7 @@
 {
   environment.systemPackages = 
   (with pkgs; [
-    nodejs_23
+    nodejs_22
     python313
     gcc
     gnumake
