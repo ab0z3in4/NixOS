@@ -1,7 +1,7 @@
 { pkgs-unstable, ... }:
 
 {
-  fonts {
+  fonts = {
     packages = with pkgs-unstable; [
       noto-fonts
       noto-fonts-emoji
@@ -24,5 +24,5 @@
       serif = [ "Merriweather" "Noto Naskh Arabic" ];
       monospace = [ "JetBrains Mono" "Noto Naskh Arabic" ];
     };
-  }  
+  };
 }
