@@ -21,9 +21,9 @@
     ];
     fontconfig = {
       defaultFonts = {
-        serif = [ "Merriweather" "Noto Sans Arabic" ];
-        sansSerif = [ "Roboto" "Noto Sans Arabic" ];
-        monospace = [ "JetBrains Mono" "Noto Sans Arabic" ];
+        serif = [ "Merriweather" "Noto Naskh Arabic" ];
+        sansSerif = [ "Roboto" "Noto Naskh Arabic" ];
+        monospace = [ "JetBrains Mono" "Noto Naskh Arabic" ];
       };
     };
   };
