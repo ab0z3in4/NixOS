@@ -19,10 +19,12 @@
       roboto
       merriweather
     ];
-    fontconfig.defaultFonts = {
-      sansSerif = [ "Roboto" "Noto Sans Arabic" ];
-      serif = [ "Merriweather" "Noto Sans Arabic" ];
-      monospace = [ "JetBrains Mono" "Noto Sans Arabic" ];
+    fontconfig = {
+      defaultFonts = {
+        serif = [ "Merriweather" "Noto Sans Arabic" ];
+        sansSerif = [ "Roboto" "Noto Sans Arabic" ];
+        monospace = [ "JetBrains Mono" "Noto Sans Arabic" ];
+      };
     };
   };
 }
