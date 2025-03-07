@@ -1,6 +1,9 @@
+{ pkgs-unstable, ... }:
+
 {
   xsession.windowManager.bspwm = {
     enable = true;
+    package = pkgs-unstable.bspwm;
     settings = {
       border_width = 2;
       window_gap = 2;

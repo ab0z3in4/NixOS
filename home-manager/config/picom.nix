@@ -1,6 +1,9 @@
+{ pkgs-unstable, ... }:
+
 {
   services.picom = {
     enable = true;
+    package = pkgs-unstable.picom;
     backend = "glx";
     vSync = true;
     settings = {

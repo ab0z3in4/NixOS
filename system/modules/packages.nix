@@ -12,49 +12,14 @@
   ++
   (with pkgs-unstable; [
     git
-    gh
-    unzip
     gzip
+    unzip
     unrar
     sbctl
-    brightnessctl
-    vscode
-    wget
-    htop
-    neofetch
     virtiofsd
-    firefox
-    alacritty
-    starship
-    bspwm
-    sxhkd
-    polybar
-    picom
-    nitrogen
-    dunst
-    numlockx
-    rofi
-    copyq
-    redshift
-    networkmanagerapplet
-    nautilus
-    nautilus-open-any-terminal
-    gnome-calendar
-    gnome-system-monitor
-    pamixer
-    pavucontrol
-    flameshot
-    gnome-calculator
-    mpv
-    gthumb
-    file-roller
     adw-gtk3
     bibata-cursors
     papirus-icon-theme
-    telegram-desktop
-    whatsie
-    onlyoffice-desktopeditors
-    xfce.mousepad
   ]);
 
   programs.nix-ld.enable = true;

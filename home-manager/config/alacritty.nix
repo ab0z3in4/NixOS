@@ -1,6 +1,9 @@
+{ pkgs-unstable, ... }:
+
 {
   programs.alacritty = {
     enable = true;
+    package = pkgs-unstable.alacritty;
     settings = {
       colors = {
         bright = {
