@@ -18,6 +18,8 @@
       open-sans
       roboto
       merriweather
+      corefonts
+      vista-fonts
     ];
     fontconfig = {
       defaultFonts = {

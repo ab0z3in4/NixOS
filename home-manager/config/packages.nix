@@ -25,7 +25,8 @@
     file-roller
     telegram-desktop
     whatsie
-    onlyoffice-desktopeditors
+    libreoffice-fresh
+    hunspell
     xfce.mousepad
   ];
 }
