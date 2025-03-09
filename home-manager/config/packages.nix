@@ -27,6 +27,8 @@
     whatsie
     libreoffice-fresh
     hunspell
+    evince
     xfce.mousepad
+    arduino-ide
   ];
 }
