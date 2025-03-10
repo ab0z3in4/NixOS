@@ -5,6 +5,7 @@
     gh
     brightnessctl
     vscode
+    xfce.mousepad
     htop
     neofetch
     firefox
@@ -28,7 +29,5 @@
     libreoffice-fresh
     hunspell
     evince
-    xfce.mousepad
-    arduino-ide
   ];
 }
