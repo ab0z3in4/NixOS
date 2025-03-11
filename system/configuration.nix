@@ -15,7 +15,7 @@
     ./modules/qt.nix
     ./modules/system.nix
   ];
-  
+
   # Documentation
   documentation.nixos.enable = false;
 
