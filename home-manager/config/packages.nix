@@ -9,6 +9,7 @@
     wget
     htop
     neofetch
+    uv
     firefox
     nitrogen
     numlockx
