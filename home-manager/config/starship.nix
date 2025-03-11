@@ -3,7 +3,6 @@
 {
   programs.starship = {
     enable = true;
-    package = pkgs-unstable.starship;
     enableBashIntegration = true;
     settings = {
       add_newline = true;
