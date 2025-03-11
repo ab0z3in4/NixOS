@@ -10,6 +10,7 @@
     ./config/bspwm.nix
     ./config/picom.nix
     ./config/mpv.nix
+    ./config/fonts.nix
     ./config/packages.nix
   ];
   home.enableNixpkgsReleaseCheck = false;

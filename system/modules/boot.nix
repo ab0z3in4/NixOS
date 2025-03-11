@@ -35,6 +35,7 @@
     loader = {
       efi.canTouchEfiVariables = true;
       systemd-boot.enable = true;
+      # systemd-boot.enable = lib.mkForce false;
       timeout = 0;
     };
     /*lanzaboote = {

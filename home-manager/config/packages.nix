@@ -6,6 +6,7 @@
     brightnessctl
     vscode
     xfce.mousepad
+    wget
     htop
     neofetch
     firefox
