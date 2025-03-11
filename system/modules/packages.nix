@@ -16,6 +16,7 @@
     unzip
     unrar
     sbctl
+    starship
     virtiofsd
     adw-gtk3
     bibata-cursors
