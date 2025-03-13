@@ -26,7 +26,7 @@
             enable = true;
             theme.name = "adw-gtk3-dark";
             iconTheme.name = "Papirus-Dark";
-            cursorTheme.name = "Bibata-Modern-Classic";
+            cursorTheme.name = "capitaine-cursors-white";
             cursorTheme.size = 16;
             font.name = "JetBrains Mono";
           };

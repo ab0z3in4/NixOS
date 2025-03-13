@@ -1,7 +1,7 @@
 {
   gtk = {
     enable = true;
-    cursorTheme.name = "Bibata-Modern-Classic";
+    cursorTheme.name = "capitaine-cursors-white";
     cursorTheme.size = 16;
     theme.name = "adw-gtk3-dark";
     iconTheme.name = "Papirus-Dark";

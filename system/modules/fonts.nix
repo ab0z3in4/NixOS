@@ -5,6 +5,8 @@
     packages = with pkgs-unstable; [
       noto-fonts
       noto-fonts-emoji
+      noto-fonts-cjk-sans
+      noto-fonts-cjk-serif
       nerd-fonts.fira-code
       nerd-fonts.jetbrains-mono
       cantarell-fonts
@@ -16,8 +18,7 @@
       fira-code
       jetbrains-mono
       open-sans
-      roboto
-      merriweather
+      lora
       corefonts
       vista-fonts
     ];
