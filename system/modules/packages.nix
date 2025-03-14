@@ -19,7 +19,7 @@
     starship
     virtiofsd
     adw-gtk3
-    capitaine-cursors
+    bibata-cursors
     papirus-icon-theme
   ]);
 
