@@ -5,7 +5,7 @@
       serif = [ "Lora" "Noto Sans Arabic" ];
       sansSerif = [ "Fira Sans" "Noto Sans Arabic" ];
       monospace = [ "JetBrains Mono" "Noto Sans Arabic" ];
-      emoji = [ "Noto Color Emoji" "Apple Color Emoji" ];
+      emoji = [ "Noto Color Emoji" ];
     };
   };
 }
