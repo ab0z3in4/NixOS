@@ -10,7 +10,7 @@
     htop
     neofetch
     uv
-    brave
+    firefox
     nitrogen
     numlockx
     rofi
