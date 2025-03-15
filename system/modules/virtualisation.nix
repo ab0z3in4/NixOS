@@ -1,18 +1,18 @@
-{ pkgs-unstable, ... }:
+{ pkgs, ... }:
 
 {
   virtualisation = {
     libvirtd = {
       enable = true;
       qemu = {
-        package = pkgs-unstable.qemu_kvm;
+        package = pkgs.qemu_kvm;
         swtpm = {
           enable = true;
-          package = pkgs-unstable.swtpm;
+          package = pkgs.swtpm;
         };
         ovmf = {
           enable = true;
-          packages = [ pkgs-unstable.OVMFFull.fd ];
+          packages = [ pkgs.OVMFFull.fd ];
         };
       };
     };
