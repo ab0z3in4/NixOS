@@ -19,8 +19,6 @@
       jetbrains-mono
       open-sans
       lora
-      corefonts
-      vista-fonts
     ];
   };
 }
