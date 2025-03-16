@@ -7,7 +7,6 @@
     gnome.gnome-keyring.enable = true;
     power-profiles-daemon.enable = true;
     blueman.enable = true;
-    jellyfin.openFirewall = true;
     libinput.enable = true;
     picom.enable = true;
     displayManager.defaultSession = "none+bspwm";
