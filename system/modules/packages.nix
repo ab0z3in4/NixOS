@@ -8,6 +8,7 @@
     gcc
     gnumake
     ntfs3g
+    yarn
   ])
   ++
   (with pkgs-unstable; [
