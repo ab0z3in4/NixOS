@@ -4,11 +4,11 @@
   environment.systemPackages = 
   (with pkgs; [
     nodejs_22
+    yarn
     python313
     gcc
     gnumake
     ntfs3g
-    yarn
   ])
   ++
   (with pkgs-unstable; [
@@ -19,6 +19,7 @@
     sbctl
     starship
     virtiofsd
+    virt-manager
     adw-gtk3
     bibata-cursors
     papirus-icon-theme
