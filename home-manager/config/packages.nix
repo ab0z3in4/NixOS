@@ -9,8 +9,7 @@
     wget
     htop
     neofetch
-    uv
-    firefox
+    brave
     nitrogen
     numlockx
     rofi

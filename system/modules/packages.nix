@@ -6,6 +6,7 @@
     nodejs_22
     yarn
     python313
+    uv
     gcc
     gnumake
     ntfs3g
