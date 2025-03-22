@@ -3,16 +3,16 @@
 {
   environment.systemPackages = 
   (with pkgs; [
-    nodejs_22
-    yarn
-    python313
-    uv
     gcc
     gnumake
     ntfs3g
   ])
   ++
   (with pkgs-unstable; [
+    nodejs
+    yarn
+    python313
+    uv
     git
     gzip
     unzip
