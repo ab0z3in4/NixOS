@@ -9,6 +9,7 @@
     ./config/bspwm.nix
     ./config/picom.nix
     ./config/mpv.nix
+    ./config/virt-manager.nix
     ./config/fonts.nix
     ./config/packages.nix
   ];
