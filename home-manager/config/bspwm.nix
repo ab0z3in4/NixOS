@@ -38,7 +38,7 @@
       "pavucontrol" = {
         state = "floating";
       };
-      "org.gnome.gThumb" = {
+      "Org.gnome.gThumb" = {
         state = "floating";
       };
       "motion_recorder" = {
