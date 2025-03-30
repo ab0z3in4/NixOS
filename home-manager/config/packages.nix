@@ -9,7 +9,7 @@
     wget
     htop
     neofetch
-    brave
+    firefox
     nitrogen
     numlockx
     rofi
