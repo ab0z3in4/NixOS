@@ -24,7 +24,7 @@
           enable = true;
           greeters.slick = {
             enable = true;
-            theme.name = "adw-gtk3-dark";
+            theme.name = "Orchis-Dark-Compact";
             iconTheme.name = "Papirus-Dark";
             cursorTheme.name = "Bibata-Modern-Classic";
             cursorTheme.size = 16;
