@@ -33,7 +33,7 @@
 
   # Environment Variables
   environment.sessionVariables = rec {
-    GTK_THEME = "Orchis-Grey-Dark-Compact";
+    GTK_THEME = "Orchis-Dark-Compact";
   };
 
   system.stateVersion = "24.11";
