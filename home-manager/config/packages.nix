@@ -5,7 +5,7 @@
     gh
     brightnessctl
     vscode
-    xfce.mousepad
+    gnome-text-editor
     wget
     htop
     neofetch
