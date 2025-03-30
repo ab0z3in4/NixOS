@@ -21,7 +21,7 @@
     starship
     virtiofsd
     virt-manager
-    adw-gtk3
+    orchis-theme
     bibata-cursors
     papirus-icon-theme
   ]);
