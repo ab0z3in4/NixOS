@@ -10,7 +10,6 @@
   ++
   (with pkgs-unstable; [
     nodejs
-    yarn
     python313
     uv
     git
@@ -21,7 +20,7 @@
     starship
     virtiofsd
     virt-manager
-    orchis-theme
+    colloid-gtk-theme
     bibata-cursors
     papirus-icon-theme
   ]);

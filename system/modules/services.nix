@@ -24,7 +24,7 @@
           enable = true;
           greeters.slick = {
             enable = true;
-            theme.name = "Orchis-Dark-Compact";
+            theme.name = "Colloid-Dark";
             iconTheme.name = "Papirus-Dark";
             cursorTheme.name = "Bibata-Modern-Classic";
             cursorTheme.size = 16;

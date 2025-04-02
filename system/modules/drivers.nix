@@ -9,12 +9,25 @@
     };
     graphics = {
       enable = true;
-      extraPackages = with pkgs; [ mesa mesa.drivers ];
+      enable32Bit = true;
+      extraPackages = with pkgs; [
+        intel-media-driver
+        libvdpau-va-gl
+        vaapiVdpau
+        libvdpau
+        libvdpau-va-gl
+        nvidia-vaapi-driver
+        vdpauinfo
+        libva
+        libva-utils
+      ];
     };
     nvidia = {
       modesetting.enable = true;
       powerManagement.enable = false;
       powerManagement.finegrained = false;
+      #dynamicBoost.enable = true; # Dynamic Boost
+      nvidiaPersistenced = false;
       open = false;
       nvidiaSettings = true;
       package = config.boot.kernelPackages.nvidiaPackages.stable;
