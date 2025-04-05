@@ -6,7 +6,7 @@
     package = pkgs-unstable.bspwm;
     settings = {
       border_width = 2;
-      window_gap = 2;
+      window_gap = 0;
       single_monocle = false;
       click_to_focus = true;
       split_ratio = 0.50;
