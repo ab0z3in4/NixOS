@@ -31,10 +31,5 @@
     LC_ADDRESS = "ar_EG.utf8";
   };
 
-  # Environment Variables
-  environment.sessionVariables = rec {
-    GTK_THEME = "Colloid-Dark";
-  };
-
   system.stateVersion = "24.11";
 }

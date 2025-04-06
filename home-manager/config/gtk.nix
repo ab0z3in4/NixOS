@@ -1,9 +1,14 @@
+{ pkgs-unstable, ... }:
+
 {
   gtk = {
     enable = true;
+    cursorTheme.package = pkgs-unstable.bibata-cursors;
     cursorTheme.name = "Bibata-Modern-Classic";
     cursorTheme.size = 16;
+    theme.package = pkgs-unstable.colloid-gtk-theme;
     theme.name = "Colloid-Dark";
+    iconTheme.package = pkgs-unstable.papirus-icon-theme;
     iconTheme.name = "Papirus-Dark";
     gtk3.bookmarks = [
       "file:///mnt/Data Data"

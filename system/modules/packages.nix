@@ -10,6 +10,7 @@
   ++
   (with pkgs-unstable; [
     nodejs
+    yarn
     python313
     uv
     git
@@ -20,9 +21,6 @@
     starship
     virtiofsd
     virt-manager
-    colloid-gtk-theme
-    bibata-cursors
-    papirus-icon-theme
   ]);
 
   programs.nix-ld.enable = true;
