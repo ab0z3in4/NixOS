@@ -10,6 +10,8 @@
     theme.name = "Colloid-Dark";
     iconTheme.package = pkgs-unstable.papirus-icon-theme;
     iconTheme.name = "Papirus-Dark";
+    font.name = "Sans";
+    font.size = 10;
     gtk3.bookmarks = [
       "file:///mnt/Data Data"
       "file:///home/ab0z3in4/Documents Documents"

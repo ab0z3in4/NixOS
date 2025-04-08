@@ -9,7 +9,6 @@
       noto-fonts-cjk-serif
       nerd-fonts.fira-code
       nerd-fonts.jetbrains-mono
-      cantarell-fonts
       fira-code
       fira-code-symbols
       fira-sans
@@ -20,7 +19,7 @@
       open-sans
       corefonts
       vista-fonts
-      lora
+      ibm-plex
     ];
   };
 }
