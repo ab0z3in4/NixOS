@@ -10,7 +10,6 @@
   ++
   (with pkgs-unstable; [
     nodejs
-    yarn
     python313
     uv
     git
