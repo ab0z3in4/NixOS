@@ -6,7 +6,7 @@
     package = pkgs-unstable.bspwm;
     settings = {
       border_width = 2;
-      window_gap = 0;
+      window_gap = 2;
       single_monocle = false;
       click_to_focus = true;
       split_ratio = 0.50;
@@ -55,7 +55,7 @@
       "nitrogen --restore"
       "nm-applet"
       "dunst"
-      "copyq"
+      "xfce4-clipman"
       "blueman-applet"
       "numlockx on"
       "redshift -O 4500K"

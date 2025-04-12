@@ -19,7 +19,7 @@
       open-sans
       corefonts
       vista-fonts
-      ibm-plex
+      roboto-serif
     ];
   };
 }

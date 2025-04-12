@@ -13,7 +13,7 @@
     nitrogen
     numlockx
     rofi
-    copyq
+    xfce.xfce4-clipman-plugin
     redshift
     networkmanagerapplet
     gnome-calendar

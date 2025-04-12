@@ -8,9 +8,12 @@
       "bar/mainbar" = {
         width = "100%";
         height = "20pt";
+        radius = 6;
         background = "#aa000000";
         foreground = "#C5C8C6";
         line-size = "3pt";
+        border-size = "3pt";
+        border-color = "#00000000";
         padding-left = 0;
         padding-right = 1;
         module-margin = 1;
