@@ -29,6 +29,6 @@
     whatsie
     libreoffice-fresh
     hunspell
-    evince
+    kdePackages.okular
   ];
 }
