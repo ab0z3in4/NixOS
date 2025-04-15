@@ -10,8 +10,6 @@
     libinput.enable = true;
     picom.enable = true;
     displayManager.defaultSession = "none+bspwm";
-    displayManager.autoLogin.enable = true;
-    displayManager.autoLogin.user = "ab0z3in4";
     xserver = {
       enable = true;
       windowManager.bspwm.enable = true;
@@ -20,6 +18,16 @@
         variant = "qwerty";
         model = "pc105";
         options = "grp:win_space_toggle";
+      };
+      displayManager = {
+        lightdm = {
+          enable = true;
+          greeters.slick = {
+            enable = true;
+            theme.name = "Adwaita-dark";
+            font.name = "JetBrains Mono";
+          };
+        };
       };
     };
   };

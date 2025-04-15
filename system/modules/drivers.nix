@@ -11,6 +11,8 @@
       enable = true;
       enable32Bit = true;
       extraPackages = with pkgs; [
+        mesa.drivers
+        mesa-demos
         intel-media-driver
         libvdpau-va-gl
         vaapiVdpau
