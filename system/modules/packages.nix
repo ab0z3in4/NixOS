@@ -6,6 +6,8 @@
     gcc
     gnumake
     ntfs3g
+    (callPackage ./sddm.nix {})
+    kdePackages.qtmultimedia
   ])
   ++
   (with pkgs-unstable; [

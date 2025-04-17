@@ -33,6 +33,10 @@
             home-manager.useUserPackages = true;
             home-manager.users.ab0z3in4 = import ./home-manager/home.nix;
             home-manager.extraSpecialArgs = {
+              pkgs = import nixpkgs-stable {
+                inherit system;
+                config.allowUnfree = true;
+              };
               pkgs-unstable = import nixpkgs-unstable {
                 inherit system;
                 config.allowUnfree = true;

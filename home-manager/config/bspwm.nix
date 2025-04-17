@@ -57,7 +57,6 @@
       "dunst"
       "xfce4-clipman"
       "blueman-applet"
-      "numlockx on"
       "redshift -O 4500K"
       "xsetroot -cursor_name left_ptr"
     ];

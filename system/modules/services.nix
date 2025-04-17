@@ -1,3 +1,5 @@
+{ lib, pkgs-unstable, ... }:
+
 {
   services = {
     dbus.enable = true;
@@ -9,7 +11,15 @@
     blueman.enable = true;
     libinput.enable = true;
     picom.enable = true;
-    displayManager.defaultSession = "none+bspwm";
+    displayManager = {
+      defaultSession = "none+bspwm";
+      sddm = {
+        enable = true;
+        autoNumlock = true;
+        package = pkgs-unstable.kdePackages.sddm;
+        theme = "astronaut-theme";
+      };
+    };
     xserver = {
       enable = true;
       windowManager.bspwm.enable = true;
@@ -18,16 +28,6 @@
         variant = "qwerty";
         model = "pc105";
         options = "grp:win_space_toggle";
-      };
-      displayManager = {
-        lightdm = {
-          enable = true;
-          greeters.slick = {
-            enable = true;
-            theme.name = "Adwaita-dark";
-            font.name = "JetBrains Mono";
-          };
-        };
       };
     };
   };

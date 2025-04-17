@@ -11,7 +11,6 @@
     neofetch
     brave
     nitrogen
-    numlockx
     rofi
     xfce.xfce4-clipman-plugin
     redshift

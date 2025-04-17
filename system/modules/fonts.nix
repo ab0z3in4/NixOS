@@ -20,6 +20,7 @@
       corefonts
       vista-fonts
       roboto-serif
+      (callPackage ./fonts-custom.nix {})
     ];
   };
 }
