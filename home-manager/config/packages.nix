@@ -29,5 +29,6 @@
     libreoffice-fresh
     hunspell
     evince
+    obsidian
   ];
 }
