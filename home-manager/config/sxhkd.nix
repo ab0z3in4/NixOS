@@ -1,9 +1,6 @@
-{ pkgs-unstable, ... }:
-
 {
   services.sxhkd = {
     enable = true;
-    package = pkgs-unstable.sxhkd;
     keybindings = {
       "super + Return" = "alacritty";
       "super + shift + Return" = "nautilus";

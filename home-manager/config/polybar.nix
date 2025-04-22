@@ -1,9 +1,9 @@
-{ pkgs-unstable, ... }:
+# { pkgs-unstable, ... }:
 
 {
   services.polybar = {
     enable = true;
-    package = pkgs-unstable.polybar;
+    # package = pkgs-unstable.polybar;
     config = {
       "bar/mainbar" = {
         width = "100%";
