@@ -1,5 +1,3 @@
-# { pkgs-unstable, ... }:
-
 {
   programs.starship = {
     enable = true;
