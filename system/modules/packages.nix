@@ -6,8 +6,8 @@
     gcc
     gnumake
     ntfs3g
-    (callPackage ./sddm.nix {})
-    kdePackages.qtmultimedia
+    sddm-astronaut
+    kdePackages.qt5compat
   ])
   ++
   (with pkgs-unstable; [

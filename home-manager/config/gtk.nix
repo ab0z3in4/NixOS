@@ -6,8 +6,8 @@
     cursorTheme.package = pkgs-unstable.bibata-cursors;
     cursorTheme.name = "Bibata-Modern-Classic";
     cursorTheme.size = 16;
-    theme.package = pkgs-unstable.orchis-theme;
-    theme.name = "Orchis-Dark-Compact";
+    theme.package = pkgs-unstable.gnome-themes-extra;
+    theme.name = "Adwaita-dark";
     iconTheme.package = pkgs-unstable.papirus-icon-theme;
     iconTheme.name = "Papirus-Dark";
     font.name = "Sans";
