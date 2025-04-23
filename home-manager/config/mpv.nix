@@ -15,7 +15,7 @@
       sub-margin-y = 110;
       sub-font-size = 70;
       sub-border-size = 2;
-      sub-border-color = "'#101010'";
+      sub-border-color = ''"#101010"'';
       sub-color = "1.0/1.0/1.0/0.85";
       sub-blur = 0.3;
       stretch-image-subs-to-screen = true;
@@ -40,9 +40,9 @@
       "DOWN" = "add volume -2";
       "MOUSE_BTN3" = "add volume  2";
       "MOUSE_BTN4" = "add volume -2";
-      "A" = "cycle-values video-aspect-override \"16:9\" \"9:16\" \"4:3\" \"3:4\" \"13:16\" \"16:13\" \"2.35:1\" \"1:2.35\" \"11:20\" \"20:11\" \"-1\"";
-      "R" = "cycle_values video-rotate \"90\" \"180\" \"270\" \"0\"";
-      "b" = "cycle_values brightness \"0\" \"4\"";
+      "A" = ''cycle-values video-aspect-override "16:9" "9:16" "4:3" "3:4" "13:16" "16:13" "2.35:1" "1:2.35" "11:20" "20:11" "-1"'';
+      "R" = ''cycle_values video-rotate "90" "180" "270" "0"'';
+      "b" = ''cycle_values brightness "0" "4"'';
       "CTRL+t" = "cycle-values script-opts uosc-time_precision=0 uosc-time_precision=3";
       "N" = "add chapter 1";
       "MBTN_FORWARD" = "add chapter 1";

@@ -115,7 +115,7 @@
       };
       "module/backlight" = {
         type = "custom/script";
-        exec = "sh -c 'echo $(( $(brightnessctl g) * 100 / $(brightnessctl m) ))'";
+        exec = ''sh -c "echo $(( $(brightnessctl g) * 100 / $(brightnessctl m) ))"'';
         format = "<label>";
         label = "%output%%";
         interval = 3;

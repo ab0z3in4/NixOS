@@ -24,7 +24,7 @@
       presel_feedback_color = "#5e81ac";
       urgent_border_color = "#dd2727";
     };
-    extraConfig = '' bspc monitor -d 1 2 3 4 5 6 7 8 9 10 '';
+    extraConfig = ''bspc monitor -d 1 2 3 4 5 6 7 8 9 10'';
     rules = {
       "gnome-calculator" = {
         state = "floating";

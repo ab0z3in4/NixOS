@@ -13,10 +13,10 @@
       "XF86AudioMute" = "~/.config/bspwm/scripts/volume-control.sh mute";
       "super + ctrl + Up" = "~/.config/bspwm/scripts/brightness-control.sh up";
       "super + ctrl + Down" = "~/.config/bspwm/scripts/brightness-control.sh down";
-      "super + ctrl + t" = "dunstify \"Your Battary Mode IS $(powerprofilesctl get)\"";
-      "super + ctrl + s" = "powerprofilesctl set power-saver && dunstify \"Your Battary Mode IS $(powerprofilesctl get)\"";
-      "super + ctrl + b" = "powerprofilesctl set balanced && dunstify \"Your Battary Mode IS $(powerprofilesctl get)\"";
-      "super + ctrl + p" = "powerprofilesctl set performance && dunstify \"Your Battary Mode IS $(powerprofilesctl get)\"";
+      "super + ctrl + t" = ''dunstify "Your Battary Mode IS $(powerprofilesctl get)"'';
+      "super + ctrl + s" = ''powerprofilesctl set power-saver && dunstify "Your Battary Mode IS $(powerprofilesctl get)"'';
+      "super + ctrl + b" = ''powerprofilesctl set balanced && dunstify "Your Battary Mode IS $(powerprofilesctl get)"'';
+      "super + ctrl + p" = ''powerprofilesctl set performance && dunstify "Your Battary Mode IS $(powerprofilesctl get)"'';
       "Print" = "flameshot gui";
       "super + shift + r" = "bspc wm -r";
       "super + q" = "bspc node -c";
