@@ -17,7 +17,7 @@
         enable = true;
         autoNumlock = true;
         package = pkgs-unstable.kdePackages.sddm;
-        theme = "sddm-astronaut-theme";
+        theme = "simple-sddm-2";
       };
     };
     xserver = {

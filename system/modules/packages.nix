@@ -6,7 +6,7 @@
     gcc
     gnumake
     ntfs3g
-    sddm-astronaut
+    (callPackage ./sddm.nix {})
     kdePackages.qt5compat
   ])
   ++

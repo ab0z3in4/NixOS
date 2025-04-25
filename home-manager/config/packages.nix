@@ -29,6 +29,7 @@
     libreoffice-fresh
     hunspell
     evince
+    qbittorrent
     obsidian
   ];
 }
