@@ -4,6 +4,7 @@
   home.packages = with pkgs-unstable; [
     gh
     brightnessctl
+    vim
     vscode
     gnome-text-editor
     wget
