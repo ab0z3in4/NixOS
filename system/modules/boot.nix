@@ -5,7 +5,6 @@
     kernelParams = [
       "nohibernate"
       "apparmor=1"
-      # "security=apparmor"
       "slab_nomerge"
       "page_alloc.shuffle=1"
       "pti=on"
@@ -16,14 +15,14 @@
     supportedFilesystems = [ "ntfs" "btrfs" ];
     loader = {
       efi.canTouchEfiVariables = true;
-      # systemd-boot.enable = true;
-      systemd-boot.enable = lib.mkForce false;
+      systemd-boot.enable = true;
+      # systemd-boot.enable = lib.mkForce false;
       timeout = 0;
     };
-    lanzaboote = {
+    /*lanzaboote = {
       enable = true;
       pkiBundle = "/var/lib/sbctl";
-    };
+    };*/
     kernelModules = [
       "tcp_bbr"
       "nvidia"
