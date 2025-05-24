@@ -8,6 +8,7 @@
   };
   security.polkit.enable = true;
   security.apparmor.enable = true;
+  # security.lsm = [ "apparmor" ];
   systemd = {
     user.services.polkit-gnome-authentication-agent-1 = {
       description = "polkit-gnome-authentication-agent-1";

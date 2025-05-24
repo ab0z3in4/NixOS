@@ -3,6 +3,7 @@
     ./config/starship.nix
     ./config/alacritty.nix
     ./config/gtk.nix
+    ./config/kvantum.nix
     ./config/dunst.nix
     ./config/polybar.nix
     ./config/sxhkd.nix
@@ -13,6 +14,7 @@
     ./config/fonts.nix
     ./config/packages.nix
   ];
+
   home.enableNixpkgsReleaseCheck = false;
-  home.stateVersion = "24.11";
+  home.stateVersion = "25.05";
 }

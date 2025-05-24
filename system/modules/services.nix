@@ -3,6 +3,7 @@
 {
   services = {
     dbus.enable = true;
+    dbus.apparmor = "enabled";
     udisks2.enable = true;
     udisks2.mountOnMedia = true;
     gvfs.enable = true;
@@ -25,7 +26,7 @@
       windowManager.bspwm.enable = true;
       xkb = {
         layout = "us,ara";
-        variant = "qwerty";
+        #variant = "qwerty";
         model = "pc105";
         options = "grp:win_space_toggle";
       };

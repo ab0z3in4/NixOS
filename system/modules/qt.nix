@@ -1,7 +1,7 @@
 {
   qt = {
     enable = true;
-    platformTheme = "gnome";
-    style = "adwaita-dark";
+    platformTheme = "gtk2";
+    style = "kvantum";
   };
 }

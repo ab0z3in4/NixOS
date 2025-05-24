@@ -26,11 +26,14 @@
     gthumb
     file-roller
     telegram-desktop
-    whatsie
+    # whatsie
+    wasistlos
     libreoffice-fresh
     hunspell
     evince
     qbittorrent
     obsidian
+    libsForQt5.qtstyleplugin-kvantum
+    qt6Packages.qtstyleplugin-kvantum
   ];
 }

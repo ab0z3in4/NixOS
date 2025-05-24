@@ -22,6 +22,9 @@
   # Enable Flakes
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
+  # Enable Unfree Software
+  nixpkgs.config.allowUnfree = true;
+
   # Set your time zone.
   time.timeZone = "Africa/Cairo";
 
@@ -31,5 +34,5 @@
     LC_ADDRESS = "ar_EG.utf8";
   };
 
-  system.stateVersion = "24.11";
+  system.stateVersion = "25.05";
 }
