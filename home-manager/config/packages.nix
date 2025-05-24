@@ -26,7 +26,6 @@
     gthumb
     file-roller
     telegram-desktop
-    # whatsie
     wasistlos
     libreoffice-fresh
     hunspell
