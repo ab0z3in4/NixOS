@@ -15,6 +15,7 @@
     python313
     uv
     git
+    p7zip
     gzip
     unzip
     unrar
