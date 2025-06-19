@@ -13,7 +13,7 @@
         };
         ovmf = {
           enable = true;
-          packages = [ pkgs-unstable.OVMF.fd ];
+          packages = [ pkgs-unstable.OVMFFull ];
         };
       };
     };

@@ -26,7 +26,6 @@
       windowManager.bspwm.enable = true;
       xkb = {
         layout = "us,ara";
-        #variant = "qwerty";
         model = "pc105";
         options = "grp:win_space_toggle";
       };
