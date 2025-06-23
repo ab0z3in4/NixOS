@@ -1,5 +1,3 @@
-{ lib, ... }:
-
 {
   boot = {
     kernelParams = [
@@ -15,19 +13,22 @@
     supportedFilesystems = [ "ntfs" "btrfs" ];
     loader = {
       efi.canTouchEfiVariables = true;
-      systemd-boot.enable = true;
-      timeout = 0;
+      grub = {
+        device = "nodev";
+        efiSupport = true;
+        enable = true;
+        useOSProber = true;
+        timeoutStyle = "menu";
+      };
+      timeout = 5;
     };
-    /*lanzaboote = {
-      enable = true;
-      pkiBundle = "/var/lib/sbctl";
-    };*/
     kernelModules = [
       "tcp_bbr"
       "nvidia"
       "nvidia_modeset"
       "nvidia_uvm"
       "nvidia_drm"
+      "kvm-amd"
       "kvm-intel"
       "overlay"
       "tun"

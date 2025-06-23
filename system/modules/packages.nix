@@ -3,6 +3,8 @@
 {
   environment.systemPackages = 
   (with pkgs; [
+    grub2
+    efibootmgr
     gcc
     gnumake
     ntfs3g
@@ -19,7 +21,6 @@
     gzip
     unzip
     unrar
-    sbctl
     starship
     virtiofsd
     virt-manager

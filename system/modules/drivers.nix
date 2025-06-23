@@ -15,7 +15,6 @@
       modesetting.enable = true;
       powerManagement.enable = false;
       powerManagement.finegrained = false;
-      dynamicBoost.enable = true;
       nvidiaPersistenced = false;
       open = false;
       nvidiaSettings = true;
