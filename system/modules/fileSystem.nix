@@ -10,5 +10,4 @@
     };
   };
   systemd.tmpfiles.rules = [ "d /mnt/Data 0775 ab0z3in4 users -" ];
-
 }
