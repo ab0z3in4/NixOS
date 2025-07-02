@@ -1,7 +1,7 @@
 {
   imports = [
     ./config/starship.nix
-    ./config/alacritty.nix
+    ./config/kitty.nix
     ./config/gtk.nix
     ./config/kvantum.nix
     ./config/dunst.nix
