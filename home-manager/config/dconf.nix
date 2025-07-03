@@ -11,5 +11,9 @@
     "org/gnome/shell/extensions/user-theme" = {
       name = "Adwaita-dark";
     };
+    "org/gnome/desktop/applications/terminal" = {
+      exec = "kitty";
+      exec-arg = "--single-instance";
+    };
   };
 }
