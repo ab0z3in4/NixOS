@@ -14,7 +14,6 @@
         };
       };
     };
-    # vmware.host.enable = true;
     spiceUSBRedirection.enable = true;
   };
 }
