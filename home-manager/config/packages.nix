@@ -10,7 +10,7 @@
     wget
     htop
     neofetch
-    brave
+    firefox
     nitrogen
     rofi
     copyq
