@@ -28,7 +28,7 @@
         useOSProber = true;
         timeoutStyle = "menu";
       };
-      timeout = 0;
+      timeout = 5;
     };
     kernelModules = [
       "tcp_bbr"

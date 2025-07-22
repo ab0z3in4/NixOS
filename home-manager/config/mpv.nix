@@ -1,4 +1,4 @@
-{ pkgs-unstable, ... }:
+{ pkgs, ... }:
 
 {
   programs.mpv = {
@@ -70,7 +70,7 @@
       "O" = "script-binding uosc/show-in-directory";
       "esc" = "quit";
     };
-    scripts = [ pkgs-unstable.mpvScripts.uosc pkgs-unstable.mpvScripts.thumbfast pkgs-unstable.mpvScripts.memo ];
+    scripts = [ pkgs.mpvScripts.uosc pkgs.mpvScripts.thumbfast pkgs.mpvScripts.memo ];
     scriptOpts = {
       uosc = {
         timeline_style = "line";

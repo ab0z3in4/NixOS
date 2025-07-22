@@ -1,7 +1,7 @@
-{ pkgs-unstable, ... }:
+{ pkgs, ... }:
 
 {
-  home.packages = with pkgs-unstable; [
+  home.packages = with pkgs; [
     gh
     brightnessctl
     vim
@@ -13,7 +13,7 @@
     brave
     nitrogen
     rofi
-    xfce.xfce4-clipman-plugin
+    copyq
     redshift
     networkmanagerapplet
     gnome-calendar
@@ -31,9 +31,5 @@
     hunspell
     evince
     qbittorrent
-    obsidian
-    webex
-    libsForQt5.qtstyleplugin-kvantum
-    qt6Packages.qtstyleplugin-kvantum
   ];
 }

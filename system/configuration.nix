@@ -34,9 +34,5 @@
     LC_ADDRESS = "ar_EG.utf8";
   };
 
-  environment.sessionVariables = rec {
-    TERMINAL = "kitty";
-  };
-
   system.stateVersion = "25.05";
 }

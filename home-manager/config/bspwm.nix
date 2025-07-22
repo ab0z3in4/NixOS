@@ -52,7 +52,7 @@
       "nitrogen --restore"
       "nm-applet"
       "dunst"
-      "xfce4-clipman"
+      "copyq"
       "blueman-applet"
       "redshift -O 4500K"
       "xsetroot -cursor_name left_ptr"

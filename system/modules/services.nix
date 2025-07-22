@@ -1,4 +1,4 @@
-{ lib, pkgs-unstable, ... }:
+{ lib, pkgs, ... }:
 
 {
   services = {
@@ -17,7 +17,7 @@
       sddm = {
         enable = true;
         autoNumlock = true;
-        package = pkgs-unstable.kdePackages.sddm;
+        package = pkgs.kdePackages.sddm;
         theme = "simple-sddm-2";
       };
     };

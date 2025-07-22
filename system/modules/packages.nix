@@ -1,8 +1,7 @@
-{ pkgs, pkgs-unstable, ... }:
+{ pkgs, ... }:
 
 {
-  environment.systemPackages = 
-  (with pkgs; [
+  environment.systemPackages = with pkgs; [
     grub2
     efibootmgr
     gcc
@@ -10,9 +9,6 @@
     ntfs3g
     (callPackage ./sddm.nix {})
     kdePackages.qt5compat
-  ])
-  ++
-  (with pkgs-unstable; [
     nodejs
     python313
     uv
@@ -24,7 +20,7 @@
     starship
     virtiofsd
     virt-manager
-  ]);
+  ];
 
   programs.nix-ld.enable = true;
   programs.nix-ld.libraries = [];

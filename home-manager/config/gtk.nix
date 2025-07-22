@@ -1,14 +1,14 @@
-{ pkgs-unstable, ... }:
+{ pkgs, ... }:
 
 {
   gtk = {
     enable = true;
-    cursorTheme.package = pkgs-unstable.bibata-cursors;
+    cursorTheme.package = pkgs.bibata-cursors;
     cursorTheme.name = "Bibata-Modern-Classic";
     cursorTheme.size = 16;
-    theme.package = pkgs-unstable.gnome-themes-extra;
+    theme.package = pkgs.gnome-themes-extra;
     theme.name = "Adwaita-dark";
-    iconTheme.package = pkgs-unstable.papirus-icon-theme;
+    iconTheme.package = pkgs.papirus-icon-theme;
     iconTheme.name = "Papirus-Dark";
     font.name = "Sans";
     font.size = 10;
