@@ -6,7 +6,6 @@
     efibootmgr
     gcc
     gnumake
-    ntfs3g
     (callPackage ./sddm.nix {})
     kdePackages.qt5compat
     nodejs
@@ -19,7 +18,6 @@
     unrar
     starship
     virtiofsd
-    virt-manager
   ];
 
   programs.nix-ld.enable = true;
