@@ -18,6 +18,7 @@
     networkmanagerapplet
     gnome-calendar
     gnome-system-monitor
+    gnome-disk-utility
     pamixer
     pavucontrol
     flameshot
