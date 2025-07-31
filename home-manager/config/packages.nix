@@ -10,7 +10,7 @@
     wget
     htop
     neofetch
-    firefox
+    librewolf
     nitrogen
     rofi
     copyq

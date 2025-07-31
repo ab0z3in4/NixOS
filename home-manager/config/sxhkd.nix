@@ -6,7 +6,7 @@
       "super + shift + Return" = "nautilus";
       "super + d" = "rofi -show drun";
       "super + Escape" = "pkill -USR1 -x sxhkd";
-      "ctrl + alt + f" = "firefox";
+      "ctrl + alt + f" = "librewolf";
       "super + x" = "~/.config/bspwm/scripts/powermenu.sh";
       "XF86AudioRaiseVolume" = "~/.config/bspwm/scripts/volume-control.sh up";
       "XF86AudioLowerVolume" = "~/.config/bspwm/scripts/volume-control.sh down";
