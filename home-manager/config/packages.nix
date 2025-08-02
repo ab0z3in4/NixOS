@@ -10,7 +10,7 @@
     wget
     htop
     neofetch
-    librewolf
+    brave
     nitrogen
     rofi
     copyq
